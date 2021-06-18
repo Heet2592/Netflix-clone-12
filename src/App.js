@@ -18,15 +18,15 @@ function App() {
         isLargeRow
       />
       <Row title="Trending Now" fetchURL={requests.fetchTrending}/>
-      <Row title="Top Rated" fetchURL={requests.fetchTopRated} />
+      <Row title="Top Rated" fetchURL={requests.fetchTopRated} isLargeRow/>
       <Row title="Action Movies" fetchURL={requests.fetchActionMovies} />
       <Row
         title="Comedy Movies"
         fetchURL={requests.fetchComedyMovies}
-       
+       isLargeRow
       />
       <Row title="Horror Movies" fetchURL={requests.fetchHorrerMovies} />
-      <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies} />
+      <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies}isLargeRow />
       <Row
         title="Documentaries"
         fetchURL={requests.fetchDocumentaries}
