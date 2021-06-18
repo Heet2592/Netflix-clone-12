@@ -23,10 +23,10 @@ function App() {
       <Row
         title="Comedy Movies"
         fetchURL={requests.fetchComedyMovies}
-       isLargeRow
+       
       />
       <Row title="Horror Movies" fetchURL={requests.fetchHorrerMovies} />
-      <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies}isLargeRow />
+      <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies}/>
       <Row
         title="Documentaries"
         fetchURL={requests.fetchDocumentaries}
